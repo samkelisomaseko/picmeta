@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meta Data Images Manipulator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="logo.png" alt="Futuristic Image Manipulator">
+    </div>
+    <nav class="nav-menu">
+      <div class="hamburger-menu">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="downloads.html">Downloads</a></li>
+        <li><a href="#">Upload</a></li>
+        <li><a href="#" class="share-btn">Share</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Meta Data Images Manipulator</h1>
+      <p>Transform your images with advanced AI technology.</p>
+     
+    </section>
+
+    <section class="image-gallery">
+      <div class="gallery-container">
+        <!-- Images will be added here dynamically -->
+      </div>
+    </section>
+
+    <section class="download-page" style="display: none;">
+      <div class="gallery-container">
+        <!-- Downloaded images will be added here dynamically -->
+      </div>
+      <button class="download-btn glass-morph">
+        <svg viewBox="0 0 24 24">
+          <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM14 13v4h-4v-4H7l5-5 5 5h-3z" />
+        </svg>
+        Download
+      </button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="sticky-buttons">
+      <button class="glass-morph">
+        <svg viewBox="0 0 24 24">
+          <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+        </svg>
+        Home
+      </button>
+      <a href="downloads.html">
+      <button class="glass-morph">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+            </svg>
+        Downloads
+      </button>
+        </a>
+      <button class="upload-btn glass-morph">
+        <svg viewBox="0 0 24 24">
+          <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM14 13v4h-4v-4H7l5-5 5 5h-3z" />
+        </svg>
+        Upload
+      </button>
+      <a href="#" class="share-btn">
+      <button class="share-btn glass-morph">
+        <svg viewBox="0 0 24 24">
+          <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z" />
+        </svg>
+        Share
+      </button>
+      </a>
+    </div>
+  </footer>
+
+  <div class="share-popup">
+    <h3>Share on:</h3>
+    <ul>
+      <li><a href="#" class="facebook">Facebook</a></li>
+      <li><a href="#" class="twitter">Twitter</a></li>
+      <li><a href="#" class="linkedin">LinkedIn</a></li>
+      <li><a href="#" class="instagram">Instagram</a></li>
+    </ul>
+    <button class="close-popup">Close</button>
+  </div>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
