@@ -37,7 +37,7 @@ header .logo img {
     height: auto;
     display: block;
     margin: 0 auto;
-    width: 100px;
+    width: 120px;
 }
 
 /* Navigation Menu Styling */
